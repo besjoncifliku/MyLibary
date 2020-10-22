@@ -1,0 +1,74 @@
+ .button {
+  -fx-display: inline-block;
+  -fx-border-radius: 15px;
+  -fx-border-color:white;
+  -fx-border-width: 2 2 2 2;
+  -fx-background-color: none;
+  -fx-background-radius: 0px;
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+  -fx-text-align: center;
+  -fx-transition: all 0.5s;
+  -fx-cursor: pointer;
+  -fx-margin: 5px;
+  -fx-background-opacity: 0.5;
+    -fx-font-smoothing-type: lcd;
+     -fx-fill: white;
+    -fx-font-size: 11pt;
+}
+
+.button: hover {
+    -fx-background-radius: 15px;
+    -fx-background-color: white;
+  	-fx-text-fill: black;
+        -fx-border-radius: 15px;
+  -fx-border-color:white;
+  -fx-border-width: 2 2 2 2;
+}
+
+// Background color of the whole context menu
+.choice-box .context-menu { -fx-background-color: black; }
+// Focused item background color in the list
+.choice-box .menu-item:focused { -fx-background-color: orange; }
+// Text color of non-focused items in the list
+.choice-box .menu-item > .label { -fx-text-fill: white; }
+// Text color of focused item in the list
+.choice-box .menu-item:focused > .label { -fx-text-fill: black; }
+
+// Background color of the control itself
+.choice-box {
+  -fx-background-color: black;
+  -fx-mark-color: orange; // arrow color
+}
+
+// Selected item text color on the control itself
+.choice-box > .label { -fx-text-fill: white; }
+
+#text_id { 
+ -fx-font-smoothing-type: lcd;
+ -fx-fill: white;
+ -fx-font-size: 11pt;
+}
+
+.text-field{
+   -fx-font-family: "Quicksand";
+   -fx-font-size: 18;
+   -fx-padding: 1,1,1,1;
+   -fx-border-color: white;
+   -fx-border-width: 2;
+   -fx-border-radius: 20px;
+   -fx-border: gone;
+   -fx-background-color: transparent;
+   -fx-text-fill: white;
+}
+
+.date-picker > .text-field {
+    -fx-background-color: coral;
+    -fx-fill: white;
+    -fx-border-width: 2;
+    -fx-background-radius:  0px;
+    -fx-border-radius: 0px;
+}
+
+
+

@@ -1,0 +1,22 @@
+ .button {
+  -fx-display: inline-block;
+  -fx-border-radius: 45px;
+  -fx-background-color: white;
+  -fx-background-radius: 45px;
+  -fx-border: none;
+  -fx-color: black;
+  -fx-font-weight: bold;
+  -fx-text-align: center;
+  -fx-transition: all 0.5s;
+  -fx-cursor: pointer;
+  -fx-margin: 5px;
+  -fx-background-opacity: 0.5;
+}
+
+.button: hover {
+    -fx-background-color: #999999;
+  	-fx-background-radius: 40px;;
+}
+
+
+
