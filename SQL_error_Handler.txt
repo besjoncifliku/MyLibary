@@ -1,0 +1,15 @@
+If an error occurs while runing sql file in the insert in BORROW table it happens 
+because of the foreign keys in bookId as copyId in my library is auto-incremented 
+after every insertion there may happen the key will be different numbers from 
+that in insert table please check library table to see what the copyID are. Thank you!
+
+For example: 
+INSERT INTO BORROW VALUES
+
+('2019-10-02','2019-10-03',21,12345678),-- Besjon-Albas
+
+('2019-05-06','2019-06-07',32,25241236),-- Emiljano-Albas
+
+('2018-01-01','2020-01-01',25,98522111);-- Diego-Albas
+
+21 32 25 may not exist in your database.Please check them! Thank you!
